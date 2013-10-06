@@ -66,8 +66,18 @@ module top_test;
 		btn1=1;
 		#20;
 		btn1=0;
-        
-		// Add stimulus here
+
+		#300;
+		 
+		sw4 = 1;
+		sw5 = 1;
+		sw8 = 1;
+		#20
+		 
+		//A button click
+		btn1=1;
+		#20;
+		btn1=0;
 
 	end
 	

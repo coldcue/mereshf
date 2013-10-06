@@ -82,7 +82,7 @@ module top(
     .rst(rst), 
     .clk(rateclk), 
     .ce(uart_ce), 
-    .word_length((sw4) ? WORD_LENGHT_7 : WORD_LENGHT_7), 
+    .word_length((sw4) ? WORD_LENGHT_7 : WORD_LENGHT_6), 
     .stop_bits((sw5) ? STOP_BITS_2 : STOP_BITS_1), 
     .bitmode(uart_bitmode),
 	 .finished(uart_finished),
