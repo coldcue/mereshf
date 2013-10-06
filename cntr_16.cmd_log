@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/dev/xilinx/mereshf/cntr_16.xst" -ofn "C:/dev/xilinx/mereshf/cntr_16.syr" 

@@ -1,0 +1,19 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/dev/xilinx/mereshf/cntr_16_test_isim_beh.exe" -prj "C:/dev/xilinx/mereshf/cntr_16_test_beh.prj" "work.cntr_16_test" "work.glbl" 
+ISim P.68d (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/dev/xilinx/mereshf/cntr_16.v" into library work
+Analyzing Verilog file "C:/dev/xilinx/mereshf/cntr_16_test.v" into library work
+Analyzing Verilog file "D:/Programs/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module cntr_16
+Compiling module cntr_16_test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 3 Verilog Units
+Built simulation executable C:/dev/xilinx/mereshf/cntr_16_test_isim_beh.exe
+Fuse Memory Usage: 25452 KB
+Fuse CPU Usage: 390 ms
