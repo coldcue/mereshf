@@ -22,10 +22,10 @@ module cntr_16(
     input clk,
     input rst,
     input ce,
-    output [0:15] out
+    output [15:0] out
     );
 	 
-reg [0:15] data;
+reg [15:0] data;
 
 assign out = data;
 
